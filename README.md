@@ -1,10 +1,8 @@
-# python-data-science-project
+[![Binder](https://binderhub.mwan.kaust.edu.sa/badge_logo.svg)](https://binderhub.mwan.kaust.edu.sa/v2/gh/kaust-vislab/introduction-to-data-science-workshop/spring-2020?urlpath=lab)
 
-Repository containing scaffolding for a Python 3-based data science project. 
+# Introduction to Data Science Workshop Series
 
-## Creating a new project from this template
-
-Simply follow the [instructions](https://help.github.com/en/articles/creating-a-repository-from-a-template) to create a new project repository from this template.
+Repository containing teaching materials for KAUST Visualization Core Lab (KVL) _Introduction to Data Science Workshop Series_. 
 
 ## Project organization
 
