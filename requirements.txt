@@ -1,0 +1,1 @@
+jupyterlab_sql==0.3.*

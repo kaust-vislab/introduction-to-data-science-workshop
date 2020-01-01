@@ -1,0 +1,2 @@
+jupyter serverextension enable jupyterlab_sql --py --sys-prefix
+jupyter lab build
