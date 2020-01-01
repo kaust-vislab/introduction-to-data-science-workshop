@@ -3,7 +3,7 @@
 
 # Introduction to Data Science Workshop Series
 
-Repository containing teaching materials for KAUST Visualization Core Lab (KVL) _Introduction to Data Science Workshop Series_. 
+Teaching materials for KAUST Visualization Core Lab (KVL) _Introduction to Data Science Workshop Series_. 
 
 ## Project organization
 
