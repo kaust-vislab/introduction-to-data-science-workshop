@@ -1,2 +1,5 @@
 jupyter serverextension enable jupyterlab_sql --py --sys-prefix
-jupyter lab build
+jupyter labextension install --no-build @jupyter-widgets/jupyterlab-manager
+jupyter labextension install --no-build jupyter-matplotlib
+jupyter labextension update --all --no-build
+jupyter lab build --log-level="INFO"
