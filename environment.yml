@@ -5,6 +5,7 @@ channels:
   - defaults
 
 dependencies:
+  - hvplot=0.5
   - ipython-sql=0.3
   - matplotlib=3.1
   - pandas=0.25
