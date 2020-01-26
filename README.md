@@ -7,11 +7,19 @@ Teaching materials for KAUST Visualization Core Lab (KVL) _Introduction to Data 
 
 ## Course Curricula
 
-### Shell for (Data) Scientists Workshop
+### Introduction to Python for Data Science
+
+### Introduction to Conda for (Data) Scientists
+
+### Shell for (Data) Scientists
 
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so they aren’t typing the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources with clusters either locally at KAUST (i.e., Ibex, Nesser, Shaheen, etc) or in the cloud ( GCP, AWS, Azure, etc).
 
 The workshop will largely follow [Software and Data Carpentry's](https://carpentries.org/) excellent [Unix Shell](http://swcarpentry.github.io/shell-novice/) materials supplemented with a few lessons from Software Carpentry's [Extra Unix Shell Materials](http://swcarpentry.github.io/shell-extras/), [HPC Carpentry's](https://hpc-carpentry.github.io/) [shell lecture materials](https://hpc-carpentry.github.io/hpc-shell/), and Data Carpentry's [Introduction to the Command Line for Genomics materials](https://datacarpentry.org/shell-genomics/).
+
+### Introduction to Git for (Data) Scientists
+
+### Introduction to SQL for Data Science
 
 ## Project organization
 
