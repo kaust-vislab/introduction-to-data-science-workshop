@@ -7,26 +7,40 @@ Teaching materials for KAUST Visualization Core Lab (KVL) _Introduction to Data 
 
 ## Course Curricula
 
-### Shell for (Data) Scientists Workshop
+### Identifying Core Competencies for Data Science 
 
-The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so they aren’t typing the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources with clusters either locally at KAUST (i.e., Ibex, Nesser, Shaheen, etc) or in the cloud ( GCP, AWS, Azure, etc).
+According to a recent O’Reilly Data Science Survey, most data scientists use multiple programming 
+languages on a daily basis to solve their data science problems. The top three programming 
+languages used by data scientists are SQL, Python, and Bash. The ability to share and reproduce 
+data science workflows is critical, whether the workflows are providing decision support in 
+industrial applications, or generating novel insights from scientific data. Core tools for 
+facilitating reproducible data science workflows are version control tools such as Git, virtual 
+environment tools such as Conda, and container technologies such as Docker.
 
-The workshop will largely follow [Software and Data Carpentry's](https://carpentries.org/) excellent [Unix Shell](http://swcarpentry.github.io/shell-novice/) materials supplemented with a few lessons from Software Carpentry's [Extra Unix Shell Materials](http://swcarpentry.github.io/shell-extras/), [HPC Carpentry's](https://hpc-carpentry.github.io/) [shell lecture materials](https://hpc-carpentry.github.io/hpc-shell/), and Data Carpentry's [Introduction to the Command Line for Genomics materials](https://datacarpentry.org/shell-genomics/).
+### Building Data Science Capacity at KAUST
 
-## Project organization
+KVL has organized a series of Introduction to Data Science workshops to build capacity in the core 
+data science tools and enable future data science applications at KAUST.
 
-Project organization is based on ideas from [_Good Enough Practices for Scientific Computing_](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510).
+* Introduction to Python for Data Science: February 2, 2020 and March 30, 2020 
+* Introduction to Conda for (Data) Scientists: February 5, 2020 and April 1, 2020
+* Introduction to Shell for (Data) Scientists: February 17, 2020
+* Introduction to Version Control using Git for (Data) Scientists: March 1, 2020
+* Introduction to SQL for Data Science: March 9, 2020
+* Introduction to Docker for (Data) Scientists: April 2020
 
-1. Put each project in its own directory, which is named after the project.
-2. Put external scripts or compiled programs in the `bin` directory.
-3. Put raw data and metadata in a `data` directory.
-4. Put text documents associated with the project in the `doc` directory.
-5. Put all Docker related files in the `docker` directory.
-6. Install the Conda environment into an `env` directory. 
-7. Put all notebooks in the `notebooks` directory.
-8. Put files generated during cleanup and analysis in a `results` directory.
-9. Put project source code in the `src` directory.
-10. Name all files to reflect their content or function.
+The core workshop material largely follows a curriculum developed by Software and Data Carpentry, 
+two global nonprofit organizations that teach foundational coding and data science skills to 
+researchers worldwide. The curriculum will be offered every Fall and Spring semester in its 
+entirety in order to provide KAUST students, post-docs, staff, and researchers with an opportunity 
+to develop their skills in these core data science tools. 
+
+KAUST Core Labs will offer a Certificate of Completion to those learners who complete the core 
+Introduction to Data Science curriculum.
+
+### Helping to Advance the State-of-the-Art in Data Science at KAUST 
+
+In addition to building capacity in core data science tools, KVL and KAUST Supercomputing Core Laboratory (KSL) are planning to offer additional advanced training courses in tools used in state-of-the-art data science applications with a particular focus on enabling data science with GPUs.
 
 ## Using Conda
 
@@ -62,8 +76,9 @@ $ conda activate $ENV_PREFIX # optional if environment already active
 
 ### Updating the Conda environment
 
-If you add (remove) dependencies to (from) the `environment.yml` file after the environment has 
-already been created, then you can update the environment with the following command.
+If you add (remove) dependencies to (from) the `environment.yml` file after the 
+environment has already been created, then you can update the environment with 
+the following command.
 
 ```bash
 $ conda env update --prefix ./env --file environment.yml --prune
@@ -71,17 +86,18 @@ $ conda env update --prefix ./env --file environment.yml --prune
 
 ### Listing the full contents of the Conda environment
 
-$nvironment run the following command.
+You can list the full contents of the Conda environment by running the following 
+command.
 
 ```bash
-conda list --prefix ./env
+$ conda list --prefix ./env
 ```
 
 ## Using Docker
 
-In order to build Docker images for your project and run containers you will need to install 
-[Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and 
+In order to build Docker images for your project and run containers you will need to 
+install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and 
 [Docker Compose](https://docs.docker.com/compose/install/).
 
-Detailed instructions for using Docker to build and image and launch containers can be found in 
-the `docker/README.md`.
+Detailed instructions for using Docker to build and image and launch containers can 
+be found in the `docker/README.md`.
