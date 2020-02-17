@@ -1,3 +1,4 @@
 apt-utils
 manpages
+man-db
 nano
