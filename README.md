@@ -23,12 +23,12 @@ environment tools such as Conda, and container technologies such as Docker.
 KVL has organized a series of Introduction to Data Science workshops to build capacity in the core 
 data science tools and enable future data science applications at KAUST.
 
-* Introduction to Python for Data Science: February 2, 2020 and March 30, 2020 
-* Introduction to Conda for (Data) Scientists: February 5, 2020 and April 1, 2020
-* Introduction to Shell for (Data) Scientists: February 17, 2020
-* Introduction to Version Control using Git for (Data) Scientists: March 1, 2020
-* Introduction to SQL for Data Science: March 9, 2020
-* Introduction to Docker for (Data) Scientists: April 2020
+* Introduction to Python for Data Science: TBD
+* Introduction to Conda for (Data) Scientists: TBD
+* Introduction to Shell for (Data) Scientists: TBD
+* Introduction to Version Control using Git for (Data) Scientists: TBD
+* Introduction to SQL for Data Science: TBD
+* Introduction to Docker for (Data) Scientists: TBD
 
 The core workshop material largely follows a curriculum developed by Software and Data Carpentry, 
 two global nonprofit organizations that teach foundational coding and data science skills to 
@@ -97,7 +97,7 @@ $ conda list --prefix ./env
 ## Using Docker
 
 In order to build Docker images for your project and run containers you will need to 
-install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and 
+install [Docker](https://docs.docker.com/install/) and 
 [Docker Compose](https://docs.docker.com/compose/install/).
 
 Detailed instructions for using Docker to build and image and launch containers can 
