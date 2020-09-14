@@ -5,7 +5,6 @@ jupyter labextension install --no-build @jupyterlab/server-proxy
 jupyter labextension install --no-build @pyviz/jupyterlab_pyviz
 
 # enable server extensions
-jupyter serverextension enable jupyter_server_proxy --py
 jupyter serverextension enable jupyterlab_sql --py --sys-prefix
 jupyter lab build
 
