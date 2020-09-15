@@ -5,15 +5,13 @@ channels:
   - defaults
 
 dependencies:
-  - hvplot=0.6
-  - ipython-sql=0.3
   - matplotlib=3.3
-  - nbdime=1.1
-  - nodejs
+  - nodejs=14.9
   - pandas=1.1
   - pip=20.2
   - pip:
     - -r file:requirements.txt
   - python=3.8
-  - jupyterlab=1.2
-  - jupyterlab-git=0.9
+  - jupyterlab=2.2
+  - jupyterlab-git=0.21
+  - xeus-python=0.8

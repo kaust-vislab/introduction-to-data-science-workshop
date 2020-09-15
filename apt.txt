@@ -1,5 +1,2 @@
-apt-utils
-man-db
-manpages-posix
 nano
 tree
