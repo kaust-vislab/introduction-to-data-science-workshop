@@ -1,5 +1,5 @@
 apt-utils
-manpages
 man-db
+manpages-posix
 nano
 tree
