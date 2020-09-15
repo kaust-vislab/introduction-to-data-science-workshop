@@ -5,7 +5,6 @@ channels:
   - defaults
 
 dependencies:
-  - code-server
   - hvplot=0.6
   - ipython-sql=0.3
   - matplotlib=3.3
@@ -16,6 +15,5 @@ dependencies:
   - pip:
     - -r file:requirements.txt
   - python=3.8
-  - jupyter-vscode-proxy
   - jupyterlab=1.2
   - jupyterlab-git=0.9
