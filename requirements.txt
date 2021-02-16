@@ -1,3 +1,0 @@
-ipython-sql
-jupyter-lsp
-python-language-server[all]
