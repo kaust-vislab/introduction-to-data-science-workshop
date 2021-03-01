@@ -1,1 +1,2 @@
+jupyter-offlinenotebook
 python-language-server[all]
