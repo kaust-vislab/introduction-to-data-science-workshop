@@ -1,0 +1,19 @@
+name: introduction-to-data-science
+
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  - jupyterlab
+  - jupyterlab-lsp
+  - jupyter-lsp
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - -r file: requirements.txt
+  - python
+  - scipy
+  - xeus-python
