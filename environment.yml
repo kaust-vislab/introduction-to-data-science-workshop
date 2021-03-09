@@ -5,9 +5,11 @@ channels:
   - defaults
   
 dependencies:
+  - git
+  - gh
   - jupyterlab
+  - jupyterlab-git
   - jupyterlab-lsp
-  - jupyter-lsp
   - matplotlib
   - numpy
   - pandas
