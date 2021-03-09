@@ -8,8 +8,8 @@ dependencies:
   - git
   - gh
   - jupyterlab<3.0
+  - jupyter-lsp-python
   - jupyterlab-git
-  - jupyterlab-lsp-python
   - matplotlib
   - numpy
   - pandas
