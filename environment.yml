@@ -7,7 +7,7 @@ channels:
 dependencies:
   - git
   - gh
-  - jupyterlab < 3.0
+  - jupyterlab<3.0
   - jupyterlab-git
   - jupyterlab-lsp
   - matplotlib
