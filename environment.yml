@@ -9,7 +9,7 @@ dependencies:
   - gh
   - jupyterlab<3.0
   - jupyterlab-git
-  - jupyterlab-lsp
+  - jupyterlab-lsp-python
   - matplotlib
   - numpy
   - pandas
