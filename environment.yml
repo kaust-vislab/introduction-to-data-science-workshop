@@ -18,6 +18,7 @@ dependencies:
   - pip:
     - -r file:requirements.txt
   - python
+  - soci-sqlite
   - scipy
   - xeus-python
   - xeus-sql
