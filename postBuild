@@ -1,2 +1,2 @@
 jupyter labextension install --no-build '@krassowski/jupyterlab-lsp@2.1.3'
-jupyter lab build
+jupyter lab build --dev-build=False --minimize=False
