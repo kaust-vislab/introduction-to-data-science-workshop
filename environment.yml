@@ -9,6 +9,7 @@ dependencies:
   - gh
   - ipython-sql
   - jupyterlab<3.0
+  - jupyterlab-debugger
   - jupyter-lsp-python
   - jupyterlab-git
   - matplotlib
