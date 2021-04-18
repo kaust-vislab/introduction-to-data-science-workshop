@@ -1,2 +1,3 @@
 jupyter labextension install --no-build '@krassowski/jupyterlab-lsp@2.1.3'
+jupyter labextension install --no-build @jupyterlab/debugger
 jupyter lab build --dev-build=False --minimize=False
