@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 LABEL maintainer="pughdr <david.pugh@kaust.edu.sa>"
 
@@ -28,10 +28,6 @@ RUN adduser --disabled-password \
 COPY environment.yml requirements.txt /tmp/
 RUN chown $UID:$GID /tmp/environment.yml /tmp/requirements.txt
 
-COPY postBuild /usr/local/bin/postBuild.sh
-RUN chown $UID:$GID /usr/local/bin/postBuild.sh && \
-    chmod u+x /usr/local/bin/postBuild.sh
-
 COPY docker/entrypoint.sh /usr/local/bin/
 RUN chown $UID:$GID /usr/local/bin/entrypoint.sh && \
     chmod u+x /usr/local/bin/entrypoint.sh
@@ -39,7 +35,7 @@ RUN chown $UID:$GID /usr/local/bin/entrypoint.sh && \
 USER $USER
 
 # install miniconda
-ENV MINICONDA_VERSION 4.7.12
+ENV MINICONDA_VERSION latest
 ENV CONDA_DIR $HOME/miniconda3
 RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-$MINICONDA_VERSION-Linux-x86_64.sh -O ~/miniconda.sh && \
     chmod +x ~/miniconda.sh && \
@@ -55,6 +51,10 @@ RUN echo ". $CONDA_DIR/etc/profile.d/conda.sh" >> ~/.profile
 # make conda activate command available from /bin/bash --interative shells
 RUN conda init bash
 
+# update conda and install mamba
+RUN conda update --name base --channel defaults conda && \
+    conda install --name base --channel conda-forge mamba
+
 # create a project directory inside user home
 ENV PROJECT_DIR $HOME/app
 RUN mkdir $PROJECT_DIR
@@ -62,18 +62,11 @@ WORKDIR $PROJECT_DIR
 
 # build the conda environment
 ENV ENV_PREFIX $PROJECT_DIR/env
-RUN conda update --name base --channel defaults conda && \
-    conda env create --prefix $ENV_PREFIX --file /tmp/environment.yml --force && \
+RUN mamba env create --prefix $ENV_PREFIX --file /tmp/environment.yml --force && \
     conda clean --all --yes
-
-# run the postBuild script to install the JupyterLab extensions
-RUN conda activate $ENV_PREFIX && \
-    /usr/local/bin/postBuild.sh && \
-    conda deactivate
 
 # use an entrypoint script to insure conda environment is properly activated at runtime
 ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
 
 # default command will be to launch JupyterLab server for development
 CMD [ "jupyter", "lab", "--no-browser", "--ip", "0.0.0.0" ]
-

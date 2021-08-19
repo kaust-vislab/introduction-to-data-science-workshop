@@ -1,2 +1,1 @@
-jupyter-offlinenotebook
-python-language-server[all]
+pandas-bokeh

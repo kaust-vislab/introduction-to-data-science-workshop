@@ -1,24 +1,46 @@
-name: introduction-to-data-science
+name: null
 
 channels:
   - conda-forge
   - defaults
-  
+
 dependencies:
-  - git
+  - bokeh
+  - dask
+  - dask-ml
+  - dask-labextension
+  - datashader
+  - featuretools
   - gh
+  - git
+  - holoviews
+  - hvplot
+  - imbalanced-learn
   - ipython-sql
-  - jupyterlab<3.0
-  - jupyter-lsp-python
+  - jupyterlab
   - jupyterlab-git
+  - jupyterlab-lsp
+  - lightgbm
   - matplotlib
+  - numba
   - numpy
+  - optuna
   - pandas
+  - panel
   - pip
   - pip:
-    - -r file:requirements.txt
+    - -r requirements.txt
+  - pyarrow
   - python
-  - soci-sqlite
+  - python-language-server
+  - pyviz_comms
+  - scikit-learn
   - scipy
+  - shap
+  - soci-sqlite
+  - umap-learn
+  - wandb
+  - xarray
   - xeus-python
   - xeus-sql
+  - xgboost
