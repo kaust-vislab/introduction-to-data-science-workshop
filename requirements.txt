@@ -1,1 +1,2 @@
+jupyter-offlinenotebook
 pandas-bokeh
