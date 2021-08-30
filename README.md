@@ -22,13 +22,11 @@ environment tools such as Conda, and container technologies such as Docker.
 KVL has organized a series of Introduction to Data Science workshops to build capacity in the core 
 data science tools and enable future data science applications at KAUST.
 
-* Introduction to Python for Data Science
-* Introduction to Conda for (Data) Scientists
 * Introduction to Shell for (Data) Scientists
+* Introduction to Conda for (Data) Scientists
+* Introduction to Python for Data Science
 * Introduction to Version Control using Git for (Data) Scientists
 * Introduction to SQL for Data Science
-* Introduction to Machine Learning with Scikit-Learn
-* Introduction to Image Classification with Keras
 
 The core workshop material largely follows a curriculum developed by Software and Data Carpentry, 
 two global nonprofit organizations that teach foundational coding and data science skills to 
@@ -41,8 +39,9 @@ Introduction to Data Science curriculum.
 
 ### Helping to Advance the State-of-the-Art in Data Science at KAUST 
 
-In addition to building capacity in core data science tools, KVL and KAUST Supercomputing Core Laboratory (KSL) are planning to offer additional advanced training courses in tools used in state-of-the-art data 
-science applications with a particular focus on enabling data science with GPUs.
+In addition to building capacity in core data science tools, KVL and KAUST Supercomputing Core Laboratory (KSL) 
+are planning to offer additional advanced training courses in tools used in state-of-the-art data science 
+applications with a particular focus on enabling data science with GPUs.
 
 ## Using Conda
 
