@@ -16,7 +16,7 @@ dependencies:
   - pandas
   - pip
   - pip:
-    - -r file:requirements.txt
+    - -r requirements.txt
   - python
   - soci-sqlite
   - scipy
