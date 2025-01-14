@@ -1,46 +1,20 @@
-name: null
-
+name: data-science
 channels:
+  - pytorch
   - conda-forge
   - defaults
-
 dependencies:
-  - bokeh
-  - dask
-  - dask-ml
-  - dask-labextension
-  - datashader
-  - featuretools
+  - python=3.10
+  - pip
+  - ipykernel
+  - pytorch=2.2.1
+  - torchvision
+  - torchaudio
+  - numpy=1.26.3
+  - ca-certificates
+  - openssl
+  - matplotlib
+  - pandas
   - gh
   - git
-  - holoviews
-  - hvplot
-  - imbalanced-learn
-  - ipython-sql
-  - jupyterlab
-  - jupyterlab-git
-  - jupyterlab-lsp
-  - lightgbm
-  - matplotlib
-  - numba
-  - numpy
-  - optuna
-  - pandas
-  - panel
-  - pip
-  - pip:
-    - -r requirements.txt
-  - pyarrow
-  - python
-  - python-language-server
-  - pyviz_comms
-  - scikit-learn
-  - scipy
-  - shap
-  - soci-sqlite
-  - umap-learn
-  - wandb
-  - xarray
-  - xeus-python
-  - xeus-sql
-  - xgboost
+  - nbgitpuller
