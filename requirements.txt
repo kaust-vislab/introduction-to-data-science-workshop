@@ -1,2 +1,0 @@
-jupyter-offlinenotebook
-pandas-bokeh
