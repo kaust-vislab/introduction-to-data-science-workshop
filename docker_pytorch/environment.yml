@@ -1,0 +1,17 @@
+name: pytorch_basics
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - pytorch=2.2.1
+  - torchvision
+  - torchaudio
+  - numpy=1.26.3
+  - ca-certificates
+  - openssl
+  - matplotlib
+  - pandas
