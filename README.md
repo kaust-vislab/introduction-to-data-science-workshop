@@ -46,6 +46,25 @@ In addition to building capacity in core data science tools, KVL and KAUST Super
 are planning to offer additional advanced training courses in tools used in state-of-the-art data science 
 applications with a particular focus on enabling data science with GPUs.
 
+## PyTorch Workshop: Open in Colab
+
+These notebooks are part of the PyTorch workshop and are a quicker alternative to Binder.
+
+Notebook 00 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/00_pratice_numpy.ipynb)
+
+Notebook 01 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/01-Tensor-Basics.ipynb)
+
+Notebook 02 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/02-Tensor-Operations.ipynb)
+
+Notebook 03 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/03-Autograd.ipynb)
+
+Notebook 04 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/04-Data-loaders.ipynb)
+
+Notebook 05 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/05-Build-models.ipynb)
+
+Notebook 06 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaust-vislab/introduction-to-data-science-workshop/blob/spring-2025/notebooks/06-Train-models.ipynb)
+
+
 ## Using Conda
 
 ### Creating the Conda environment
